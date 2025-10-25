@@ -69,7 +69,7 @@ form.addEventListener("submit", async (e) => {
         alert("Acceso permitido: " + cuenta);
         console.log("Usuario recibido:", data.usuario);
         
-        // ✅ 1. GUARDAR EN LOCALSTORAGE
+        //GUARDAR EN LOCALSTORAGE
         localStorage.setItem('usuario', login);
         localStorage.setItem('contrasena', contrasena);
         console.log('Credenciales guardadas en localStorage:', {
